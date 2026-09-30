@@ -1,34 +1,53 @@
-# 🏋️‍♂️ Kensho — Workout & Flow Tracker
+# 🏋️‍♂️ Kensho — Workout Tracker
 
-> A minimalist, low-friction workout tracker focused on clarity, consistency, and focus. Built to eliminate logging fatigue during intense training sessions.
-
----
-
-## 🎯 The Challenge
-Most fitness tracking apps are cluttered, slow, and full of aggressive paywalls. During a heavy workout, lifters deal with sweaty hands, limited time, and cognitive fatigue. **Kensho** solves this by prioritizing:
-- **Zero-clutter interface:** Large touch targets (48px+) and deep dark mode.
-- **One-tap logging:** Quick set completion and automatic rest timers.
-- **Offline & Local-first:** Your workout data stays instant and accessible.
+> A minimalist, low-friction workout tracking app focused on clarity, consistency, and focus. Built to eliminate set-logging fatigue during strength training.
 
 ---
 
-## 🎨 Design System & UX Case Study
-- **Figma Workspace:** [Link do seu arquivo no Figma aqui]
-- **Design Tokens:** Deep Charcoal (`#0D0E11`), Vibrant Lime (`#C6F135`), Minimalist Typography (*Inter* / *Space Grotesk*).
+## 📌 Project Status
+🚧 **In Active Development (UX Research & Prototyping Phase)**
+
+This project is being built end-to-end: from user experience mapping and interface design to clean front-end code implementation.
 
 ---
 
-## 🛠️ Tech Stack
-- **Framework:** Next.js (App Router, React 19)
-- **Styling:** Tailwind CSS + Radix UI primitives
+## 🎯 Value Proposition
+Most fitness apps suffer from cluttered interfaces, bloated navigation, and slow interactions during the most critical moment: resting between sets at the gym. **Kensho** solves this by delivering:
+- **Low-friction logging:** Minimal taps required to record weights and reps.
+- **Environment-first design:** Optimized contrast for gym settings and generous touch targets (48px+).
+- **Focus & clarity:** Only the essential metrics needed for progressive overload, without unnecessary distractions.
+
+---
+
+## 🛠️ Planned Tech Stack
+- **Interface & UX:** Figma
+- **Front-end:** Next.js (App Router, React 19)
+- **Styling:** Tailwind CSS
 - **Icons:** Lucide Icons
-- **State Management:** Zustand (with LocalStorage persistence)
-- **Animations:** Framer Motion
+- **State Management:** Zustand (with local persistence)
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started Locally
 
 1. Clone the repository:
 ```bash
-git clone [https://github.com/SEU_USUARIO/kensho-app.git](https://github.com/SEU_USUARIO/kensho-app.git)
+git clone [https://github.com/Lukoviskz/Kensho-app.git](https://github.com/Lukoviskz/Kensho-app.git)
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Run the local development server:
+```bash
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+
+---
+
+## 👤 Author
+Crafted by **Lukas** ([@Lukoviskz](https://github.com/Lukoviskz)).
